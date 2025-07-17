@@ -2956,8 +2956,23 @@ From openerp/osv/fields.py
 - git push origin <branch_name>
 
 
+- git clone https://github.com/odoo/odoo.git -b 17.0 --depth 1
 
 
+- …or create a new repository on the command line
+- echo "# Odoo-Tutorials" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/SandipMakwanaReliution/Odoo-Tutorials.git
+- git push -u origin main
+
+
+- …or push an existing repository from the command line
+- git remote add origin https://github.com/SandipMakwanaReliution/Odoo-Tutorials.git
+- git branch -M main
+- git push -u origin main
 
 - update ir_cron set active=False where active=True;
 - update res_partner set email='admin@gmail.com';
