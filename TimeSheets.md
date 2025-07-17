@@ -1,228 +1,228 @@
 Date : 16-12-24   
 
 Topic: revised python   
-•	variables   
-•	all datatypes and its built in functions   
-•	all operators, condition (if elif else), loops(for, while, nested), statements(continue, break, pass)   
-•	function and its arguments   
+•   variables   
+•   all datatypes and its built in functions   
+•   all operators, condition (if elif else), loops(for, while, nested), statements(continue, break, pass)   
+•   function and its arguments   
 
-•	oops concept    
-•	exception handling (try, except, else, finally)    
-•	file handling and its function(open, write, read ) and its mode(r, a, w, x)    
+•   oops concept    
+•   exception handling (try, except, else, finally)    
+•   file handling and its function(open, write, read ) and its mode(r, a, w, x)    
 
 Topic: exercise 1 
-•	create class and its members   
-•	create objects   
+•   create class and its members   
+•   create objects   
 
 -------------------------------------------------------------------------------
 
 Date : 17-12-24
 
 Topic: exercise 1-v1
-•	add number of product based on category   
-•	create fun to print category with number of product   
-•	difficulty face on sort product without built in function   
-•	create fun to print sorted product based on price   
-•	create fun to print product details with search product using its code   
+•   add number of product based on category   
+•   create fun to print category with number of product   
+•   difficulty face on sort product without built in function   
+•   create fun to print sorted product based on price   
+•   create fun to print product details with search product using its code   
 
 Topic: exercise 1-V2
-•	create class , members , objects   
-•	add relation between objects   
-•	create function to add display name when the obj create based on relationship   
-•	treble of pass full product details into category   
-•	create fun to print category with product details   
-•	create fun to print product list based on group of category and category name   
+•   create class , members , objects   
+•   add relation between objects   
+•   create function to add display name when the obj create based on relationship   
+•   treble of pass full product details into category   
+•   create fun to print category with product details   
+•   create fun to print product list based on group of category and category name   
 
 -------------------------------------------------------------------------------
 
 Date : 18-12-24
 
 Topic: exercise 1-V2   
-•	modify exercise display name using while loop   
+•   modify exercise display name using while loop   
 
 Topic: self learning/practice   
-•	learning about recursion   
-•	learn decorators and inner functions   
-•	work in cart manage exercise   
-•	add product automatic when the product was create   
-•	ask(infinite time using while) user to add product into cart   
-•	manage user choice to add , remove , total , exit   
-•	create add , total and exit function   
+•   learning about recursion   
+•   learn decorators and inner functions   
+•   work in cart manage exercise   
+•   add product automatic when the product was create   
+•   ask(infinite time using while) user to add product into cart   
+•   manage user choice to add , remove , total , exit   
+•   create add , total and exit function   
 
 -------------------------------------------------------------------------------
 
 Date : 19-12-24
 
 Topic: Exercise 1-V3
-•	create location , movement , product class   
-•	create its object   
-•	learn about triger manuily exception   
-•	manage Exception of movement   
-•	manage product stock   
-•	return valid movment of product using movement_by_product fun   
-•	display stock at location   
-•	display movment    
+•   create location , movement , product class   
+•   create its object   
+•   learn about triger manuily exception   
+•   manage Exception of movement   
+•   manage product stock   
+•   return valid movment of product using movement_by_product fun   
+•   display stock at location   
+•   display movment    
 
 -------------------------------------------------------------------------------
 
 Date : 20-12-24   
 
 Topic: Exercise 1-V3   
-•	create fun to display product group by location   
-•	modifie fun diplay stock at location   
+•   create fun to display product group by location   
+•   modifie fun diplay stock at location   
 
-•	read python documents   
-•	learn super function   
+•   read python documents   
+•   learn super function   
 
-•	git and github understanding   
+•   git and github understanding   
 
 -------------------------------------------------------------------------------
 
 Date : 21-12-24   saturday
 
 Topic: practice git command   
-•	basic command   
-•	clone , modified ,untracked ,unmodified   
-•	remote add / update   
-•	push , pull   
-•	branch , checkout , merge   
-•	diff , log , rm   
-•	fork   
+•   basic command   
+•   clone , modified ,untracked ,unmodified   
+•   remote add / update   
+•   push , pull   
+•   branch , checkout , merge   
+•   diff , log , rm   
+•   fork   
 
 -------------------------------------------------------------------------------
 
 Date : 23-12-24
 
 Topic: practice git command   
-•	git remove and rename file   
-•	git ignore - git unstaging   
-•	git alias   
+•   git remove and rename file   
+•   git ignore - git unstaging   
+•   git alias   
 
 Topic: Exercise 2   
-•	create class Customer , Order , OrderLine and create its objects   
-•	apply validation of customer members   
-•	research about datetime module   
-•	add condition of valid date   
-•	manage order subtotal and total_amount   
-•	display order and customer information   
+•   create class Customer , Order , OrderLine and create its objects   
+•   apply validation of customer members   
+•   research about datetime module   
+•   add condition of valid date   
+•   manage order subtotal and total_amount   
+•   display order and customer information   
 
 Topic:Watch Odoo tutorials   
-•	watch Introduction of CRM   
-•	CRM Basics: Pipelines & Opportunities   
+•   watch Introduction of CRM   
+•   CRM Basics: Pipelines & Opportunities   
 
 -------------------------------------------------------------------------------
 
 Date : 24-12-24
 
 Topic: Exercise 2   
-•	Sort orders based on "date".   
-•	User can filter the current month orders   
-•	Search Orders from its number.   
-•	List/Display all orders of a specific product.   
+•   Sort orders based on "date".   
+•   User can filter the current month orders   
+•   Search Orders from its number.   
+•   List/Display all orders of a specific product.   
 
 Topic: Watch Odoo tutorials   
-•	CRM Basics , Lead Generation , Lead Management   
-•	Sales : Quotations , Promotions , Tax , Delivery , Price lists    
-•	Inventory Basics   
+•   CRM Basics , Lead Generation , Lead Management   
+•   Sales : Quotations , Promotions , Tax , Delivery , Price lists    
+•   Inventory Basics   
 
 -------------------------------------------------------------------------------
 
 Date : 25-12-24   
 
 Topic: Watch Odoo Tutorials   
-•	Purchase : Buy and Receive, Manage Deals   
-•	Project and Timesheets : Project Management, Task Management, Time Management, Invoicing, Budget Management, Reporting and Analytics   
-•	Subscription   
-•	Point of sale : Introduction, Configuration, All about the money, External Devices, Be integrated      
-•	Inventory : Replenishment   
+•   Purchase : Buy and Receive, Manage Deals   
+•   Project and Timesheets : Project Management, Task Management, Time Management, Invoicing, Budget Management, Reporting and Analytics   
+•   Subscription   
+•   Point of sale : Introduction, Configuration, All about the money, External Devices, Be integrated      
+•   Inventory : Replenishment   
 
 -------------------------------------------------------------------------------
 
 Date : 26-12-24   
    
 Topic: Watch Odoo Tutorials   
-•	Inventory Practice : Traceability, Warehouse transfers, Reserve products, Packages and Packaging, Daily operations   
+•   Inventory Practice : Traceability, Warehouse transfers, Reserve products, Packages and Packaging, Daily operations   
 
 Topic : Installation
-•	install pycharm, PostgreSQL, create Repositories      
-•	Error in installing odoo   
+•   install pycharm, PostgreSQL, create Repositories      
+•   Error in installing odoo   
 
 -------------------------------------------------------------------------------
 
 Date : 27-12-24   
 
 Topic: Watch Odoo Tutorials   
-•	Calendar, Schedule Activities, Contacts   
-•	Exporting and Importing Data , Discuss   
+•   Calendar, Schedule Activities, Contacts   
+•   Exporting and Importing Data , Discuss   
 
-•	Odoo installation   
+•   Odoo installation   
 
 Topic: Read Developer Guide   
-•	Chapter 1, 2, 3   
+•   Chapter 1, 2, 3   
 
 Topic: Odoo Practice   
-•	Create custom addons module   
-•	create it's model   
+•   Create custom addons module   
+•   create it's model   
 
 -------------------------------------------------------------------------------
 
 Date : 28-12-24   saturday
    
 Topic: Odoo Practice   
-•	Create security and views directory   
-•	Add action and menu in xml file   
-•	Watch Odoo Mates video   
-•	Understand odoo conf file   
+•   Create security and views directory   
+•   Add action and menu in xml file   
+•   Watch Odoo Mates video   
+•   Understand odoo conf file   
 
 -------------------------------------------------------------------------------
 
 Date : 30-12-24
    
 Topic: Odoo Practice   
-•	Create new module and model add fields : Many2one , Datetime , Selection    
-•	add security in csv file and create xml file   
-•	create tree view , form view , action and menu   
-•	learn new attribute optional for filtering   
-•	inherit mail module and add in depends    
-•	add tracking attribute in model fields and also learn rec name   
-•	add oe_chatter class inside a form view   
-•	read developer guide chapter 4, 5, 6, 7   
-•	learn form attributes create, delete, edit   
-•	learn noupdate attribute   
-•	target view and form using its ids in evel attribute    
-•	watch odoo mates tutorials   
+•   Create new module and model add fields : Many2one , Datetime , Selection    
+•   add security in csv file and create xml file   
+•   create tree view , form view , action and menu   
+•   learn new attribute optional for filtering   
+•   inherit mail module and add in depends    
+•   add tracking attribute in model fields and also learn rec name   
+•   add oe_chatter class inside a form view   
+•   read developer guide chapter 4, 5, 6, 7   
+•   learn form attributes create, delete, edit   
+•   learn noupdate attribute   
+•   target view and form using its ids in evel attribute    
+•   watch odoo mates tutorials   
 
 -------------------------------------------------------------------------------
 
 Date : 31-12-24
 
 Topic: Odoo Practice   
-•	add new field inside 'meeting' model to manage statusbar, create its view, action and menu   
-•	add header in form and inside a header add buttons and add particular button action in model to manage status   
-•	inside a form manage invisibility using invisible attributes and set conditions   
-•	sequence attribute in menuitem to manage menu order   
-•	add web icon root menu and set image path, add widget 'statusbar' for best preview   
-•	use class oe_highlight for highlight a button, use statusbar_visible for show only particular statusbar   
-•	create new model 'tags' for practice of "Many2many" relationship    
-•	inside model use _order to manage a auto increment sequence of tag list   
-•	create only tree view and use editable 'top' and use widget 'handle' in view field for drag to reorder    
-•	add new field inside 'student' model to use Many2many field   
+•   add new field inside 'meeting' model to manage statusbar, create its view, action and menu   
+•   add header in form and inside a header add buttons and add particular button action in model to manage status   
+•   inside a form manage invisibility using invisible attributes and set conditions   
+•   sequence attribute in menuitem to manage menu order   
+•   add web icon root menu and set image path, add widget 'statusbar' for best preview   
+•   use class oe_highlight for highlight a button, use statusbar_visible for show only particular statusbar   
+•   create new model 'tags' for practice of "Many2many" relationship    
+•   inside model use _order to manage a auto increment sequence of tag list   
+•   create only tree view and use editable 'top' and use widget 'handle' in view field for drag to reorder    
+•   add new field inside 'student' model to use Many2many field   
 
 -------------------------------------------------------------------------------
 
 Date : 1-1-25
 
 Topic: Odoo Practice   
-•	revise past practice   
-•	create new model 'school' for practice 'One2many' Relation field and create its view, form, action and menu   
-•	add 'Many2one' relation in 'student' model for use One2many relation   
-•	_rec_names_search add in 'student' model for search base on its defined fields    
-•	working with notebook, pages and add widget "many2many_tags" for best selection preview   
-•	understand compute_display_name function and set id,name for searching     
-•	raise error in compute or depends function and understand store attribute for data store in data base   
-•	ondelete("cascade","set null","restrict") practice particular relation fields and practice related attribute   
-•	create action type and object type button   
-•	learn constrains function for manage error   
+•   revise past practice   
+•   create new model 'school' for practice 'One2many' Relation field and create its view, form, action and menu   
+•   add 'Many2one' relation in 'student' model for use One2many relation   
+•   _rec_names_search add in 'student' model for search base on its defined fields    
+•   working with notebook, pages and add widget "many2many_tags" for best selection preview   
+•   understand compute_display_name function and set id,name for searching     
+•   raise error in compute or depends function and understand store attribute for data store in data base   
+•   ondelete("cascade","set null","restrict") practice particular relation fields and practice related attribute   
+•   create action type and object type button   
+•   learn constrains function for manage error   
 
 -------------------------------------------------------------------------------
 
@@ -230,30 +230,30 @@ Date : 02/01/2025
 
 Topic : Chapter Exercise  
 Chapter 2   
-•	Create Estate module, init and manifest file   
+•   Create Estate module, init and manifest file   
 Chapter 3   
-•	Create estate_property model, Add basic fields to the Real Estate Property table.   
-•	Set attributes required   
+•   Create estate_property model, Add basic fields to the Real Estate Property table.   
+•   Set attributes required   
 Chapter 4   
-•	create csv file for permissions   
+•   create csv file for permissions   
 Chapter 5   
-•	Create the estate_property_views.xml file, Create an action and its menus.   
-•	set the selling price as read-only   
-•	prevent copying of the availability date and the selling price values   
-•	the default number of bedrooms is 2, the default availability date is in 3 months   
-•	Add the active field to the estate.property model.   
-•	Add new selection field status and it should not be copied and should have its default value set to ‘New’.   
+•   Create the estate_property_views.xml file, Create an action and its menus.   
+•   set the selling price as read-only   
+•   prevent copying of the availability date and the selling price values   
+•   the default number of bedrooms is 2, the default availability date is in 3 months   
+•   Add the active field to the estate.property model.   
+•   Add new selection field status and it should not be copied and should have its default value set to ‘New’.   
 Chapter 6   
-•	Create search view, add filter and group by.   
-•	a filter which displays available properties, i.e. the state should be ‘New’ or ‘Offer Received’.   
-•	the ability to group results by postcode.    
+•   Create search view, add filter and group by.   
+•   a filter which displays available properties, i.e. the state should be ‘New’ or ‘Offer Received’.   
+•   the ability to group results by postcode.    
 Chapter 7    
-•	Create the estate.property.type model, menus, view, action.   
-•	Add Many2one field.    
-•	Create the estate.property.tag model, menus, view, action.   
-•	Add Many2many field.   
-•	Create the estate.property.offer model, view.   
-•	Add One2many field.   
+•   Create the estate.property.type model, menus, view, action.   
+•   Add Many2one field.    
+•   Create the estate.property.tag model, menus, view, action.   
+•   Add Many2many field.   
+•   Create the estate.property.offer model, view.   
+•   Add One2many field.   
 
 -------------------------------------------------------------------------------
 
@@ -261,26 +261,26 @@ Date : 03/01/2025
 
 Topic : Chapter Exercise   
 Chapter 8   
-•	Add the total_area field to estate.property. It is defined as the sum of the living_area and the garden_area.   
-•	Add the best_price field to estate.property. It is defined as the highest of the offers’ price.   
-•	Manage Date Deadline using compute.   
-•	set garden value to manage other field values are unset and clear.   
+•   Add the total_area field to estate.property. It is defined as the sum of the living_area and the garden_area.   
+•   Add the best_price field to estate.property. It is defined as the highest of the offers’ price.   
+•   Manage Date Deadline using compute.   
+•   set garden value to manage other field values are unset and clear.   
 
 Chapter 9   
-•	Add the buttons ‘Cancel’ and ‘Sold’ to the estate.property model. A cancelled property cannot be set as sold, and a sold property cannot be cancelled.   
-•	use UserError to manage raise error.  
-•	Add the buttons ‘Accept’ and ‘Refuse’ to the estate.property.offer model. 
-•	use icon and class attribute to set icon in button    
-•	When an offer is accepted, set the buyer and the selling price for the corresponding property.    
-•	fix ValueError: Expected singleton: property_offer.model(21, 22)  
-•	fix ValueError: Wrong value for property.model.buyer: res.partner(3,) 
+•   Add the buttons ‘Cancel’ and ‘Sold’ to the estate.property model. A cancelled property cannot be set as sold, and a sold property cannot be cancelled.   
+•   use UserError to manage raise error.  
+•   Add the buttons ‘Accept’ and ‘Refuse’ to the estate.property.offer model. 
+•   use icon and class attribute to set icon in button    
+•   When an offer is accepted, set the buyer and the selling price for the corresponding property.    
+•   fix ValueError: Expected singleton: property_offer.model(21, 22)  
+•   fix ValueError: Wrong value for property.model.buyer: res.partner(3,) 
 
 Chapter 10  
 Add the following constraints to their corresponding models:    
-•	A property expected price must be strictly positive   
-•	A property selling price must be positive 
-•	An offer price must be strictly positive  
-•	A property tag name and property type name must be unique 
+•   A property expected price must be strictly positive   
+•   A property selling price must be positive 
+•   An offer price must be strictly positive  
+•   A property tag name and property type name must be unique 
 
 -------------------------------------------------------------------------------
 
@@ -288,15 +288,15 @@ Date : 04/01/2025
 
 Topic : Chapter Exercise  
 Chapter 10
-•	Add a constraint so that the selling price cannot be lower than 90% of the expected price.
+•   Add a constraint so that the selling price cannot be lower than 90% of the expected price.
 
 Chapter 11
-•	Add the One2many field property_ids to the estate.property.type model.
-•	Add an inline list view.
-•	Add widget "statusbar" property_view xml file.
-•	Add default_order for ordering for all tree views.
-•	Add new field sequence for manual ordering, add _order field in property_type model, add widget "handle" in sequence field.
-•	Add new field color in property tag 
+•   Add the One2many field property_ids to the estate.property.type model.
+•   Add an inline list view.
+•   Add widget "statusbar" property_view xml file.
+•   Add default_order for ordering for all tree views.
+•   Add new field sequence for manual ordering, add _order field in property_type model, add widget "handle" in sequence field.
+•   Add new field color in property tag 
 
 -------------------------------------------------------------------------------
 
@@ -2721,7 +2721,8 @@ Task: Approval for manually created purchase 01:30
 🔧 Project:- Internal 00:30
     Updated last week timesheet.
 
-=====================================================================
+--------------------------------------------------------------------------
+
 📅 Date: 16 July 2025
 🔧 Project: Korzo Interiors v17
  
@@ -2735,7 +2736,8 @@ Task: Approval for manually created purchase 01:30
 🔧 Project: Setup System
     – Estimated: 02:00
 
-======================================================================
+--------------------------------------------------------------------------
+
 📅 Date: 16 July 2025
 🔧 Project: Korzo Interiors v17
  
@@ -2744,7 +2746,7 @@ Task: Approval for manually created purchase 01:30
 🔍 R&D: Delivery and Receipt App
     - Improved the code to correctly display the roller fabric name and note in both receipt and delivery views.
 
- 🔧 Project: Internal
+🔧 Project: Internal
     - Added timesheet entries for migration work completed over the weekend (Saturday and Sunday).
     - Organized and separated previous timesheet entries based on newly created task categories.
 
@@ -2782,7 +2784,8 @@ Task: Approval for manually created purchase 01:30
 - system setup
 
 
-=====================================================================
+--------------------------------------------------------------------------
+
 📅 Date: [DD Month, YYYY]
 🔧 Project: [Project Name]
  
@@ -2791,7 +2794,8 @@ Task: Approval for manually created purchase 01:30
 🔧 [Development] [Task Title] – [Details] – Estimated: [X hrs]
 🔍 [R&D] [Task Title] – [Details] – Estimated: [X hrs]
 
-======================================================================
+--------------------------------------------------------------------------
+
 📅 Date: [DD Month, YYYY]
 🔧 Project: [Project Name]
  
@@ -2806,14 +2810,12 @@ Task: Approval for manually created purchase 01:30
 📌 Notes (Optional):
       [Anything to note]
 
-======================================================================
+--------------------------------------------------------------------------
 
 
 first time get all product qty and create invcoice 
 then second time run backourder that time also create invoice and that time show all product and thats product qty is 0 thats why error show 
 
-
-==================================================================
 
 -------------------------------------------------------------------
 Exam
@@ -2830,7 +2832,7 @@ how achive record of sales person.
 sales pesron only current user traget, its traget read only
 sales manager see all traget
 
-=======================================================================
+--------------------------------------------------------------------------
 
 When You Purchase a Product
     Debit:  Stock Valuation Account (200001 Closing Stock)
@@ -2887,7 +2889,8 @@ with store true [deta get on database]
 - when a upgrade a module first time get value in data base
 - compute method call when a field value chnage on menthion in dependse peramiter
 
-==============================================
+--------------------------------------------------------------------------
+
 chiragrajkotiya@gmail.com
 hr1into2digital@gmail.com
 chetan.reliution@gmail.com
@@ -2913,75 +2916,59 @@ p - 0843
 
 \\150.129.151.225
 
-==============================================
+--------------------------------------------------------------------------
+
 pdf or html template url
 
 http://localhost:1575/report/pdf/account.report_invoice_with_payments/1710
 http://localhost:1713/report/pdf/catalogue_management.report_catalogue_pdf/1710
 
-=================================================================
+--------------------------------------------------------------------------
 
 From openerp/osv/fields.py
 
-# Values: (0, 0, { fields }) create
+- Values: (0, 0, { fields }) create
+- (1, ID, { fields }) update (write fields to ID)
+- (2, ID) remove (calls unlink on ID, that will also delete the relationship because of the ondelete)
+- (3, ID) unlink (delete the relationship between the two objects but does not delete ID)
+- (4, ID) link (add a relationship)
+- (5, ID) unlink all
+- (6, ?, ids) set a list of links
 
-# (1, ID, { fields }) update (write fields to ID)
-
-# (2, ID) remove (calls unlink on ID, that will also delete the relationship because of the ondelete)
-
-# (3, ID) unlink (delete the relationship between the two objects but does not delete ID)
-
-# (4, ID) link (add a relationship)
-
-# (5, ID) unlink all
-
-# (6, ?, ids) set a list of links
-
-=================
+--------------------------------------------------------------------------
     
 
 
-git status
-git init
-gh --version
-gh auth login
-git add .
-git commit -m ""
-gh repo create
-git remote add REMOTE_NAME <URL>
-git remote -v
-git push -u REMOTE_NAME BRANCH_NAME
-pre-commit run --all-files
+- git status
+- git init
+- gh --version
+- gh auth login
+- git add .
+- git commit -m ""
+- gh repo create
+- git remote add REMOTE_NAME <URL>
+- git remote -v
+- git push -u REMOTE_NAME BRANCH_NAME
+- pre-commit run --all-files
 
-git clone -b <branch_name> <repository_url>
-git pull origin <branch_name>
-git push origin <branch_name>
-
-
-
-
-
-update ir_cron set active=False where active=True;
-update res_partner set email='admin@gmail.com';
-update ir_mail_server set active=False;
-update fetchmail_server set active=False;
-update res_users set login='admin', password='admin' where id =2;
-
-
-http://150.129.151.225:8080/
-Username: bhargav
-Password: Bhargav@1234
+- git clone -b <branch_name> <repository_url>
+- git pull origin <branch_name>
+- git push origin <branch_name>
 
 
 
 
 
-Amount_company_currency_signed not matched in payments
-Check PDC payment journal entries 
-Check this expense report—Office Expense (no. 1506)—id 173
-Miscellaneous entry— 
-    amount_total_signed is different than debit and credit.
-    Move lines missing of PDC payments in bank and cash entries
+- update ir_cron set active=False where active=True;
+- update res_partner set email='admin@gmail.com';
+- update ir_mail_server set active=False;
+- update fetchmail_server set active=False;
+- update res_users set login='admin', password='admin' where id =2;
+
+
+- http://150.129.151.225:8080/
+- Username: bhargav
+- Password: Bhargav@1234
 
 
 
