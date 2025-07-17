@@ -2404,56 +2404,415 @@ In Progress
 Task: Migration 
     - Migrated expense and accounting data.
 
+------------------------------------------------------------
 
-- chatter, tax, access right, currency symbol in invocie
+Today's Work Plan
+Project: Korzo Interiors v17
+Task: Migration
+
+Date: 30 June 2025
+Project: Korzo interiors v17
+In Progress
+
+Task: Migration 
+    Migrated user access rights and other some fields.
+    Faced issues while migrating account payments, taxes, and chatter.
+
+------------------------------------------------------------
+
+Date: 1 July 2025
+Project: Korzo interiors v17
+In Progress
+
+Task: Migration
+
+    Continued work on data migration activities.
+    Successfully transferred contact information.
+
+    Completed the transfer of employee details.
+    Verified and cross-checked migrated data for accuracy.
+
+    Finished migration of product and item details.
+    Completed transfer of users details.
+
+------------------------------------------------------------
+
+Date: 2 July 2025
+Project: Korzo interiors v17
+
+Assisted by: Karan Bhai
+Task: Migration - In Progress
+
+    Migrated expense records.
+    Transferred accounting data, including journal entries and payment methods.
+    Completed migration of tax details and configurations.
+
+    Migrated chart of accounts to match the production database.
+    Migrated journal entries and items.
+    Transferred data of payments and PDC payments.
+
+    Worked with the team and got assistance from team members to resolve some issues.
+
+------------------------------------------------------------
+
+Date: 3 July 2025
+Project: Korzo interiors v17
+Task: Migration - In Progress
+
+    Worked on resolving issues in migrated accounting data.
+    Fixed currency in journal entries to ensure correct values.
+
+    Corrected tax details and tax grid in journal items.
+    Resolved issues related to invoices, bills, and payment reconciliations.
+
+    Fixed originator details for PDC payments linked to journal entries.
+    Adjusted creation dates for expense records and contacts.
+    Corrected creation dates in the chart of accounts for proper reporting.
+
+------------------------------------------------------------
+
+Date: 4 July 2025
+Project: Korzo interiors v17
+Task: Migration - In Progress
+
+    Resolved an issue where expense records were not properly linked with journal entries.
+    Fixed problems with creation dates not being correctly set after moving the database to the server.
+
+    Corrected mismatched counts in expense records for accuracy.
+
+    Figured out why records of journal items and journal entries did not match count.
+    Completed migration of journal items and journal entries data after resolving the issues.
+
+    Started writing a script to match records between the production and upgraded databases using XML-RPC.
+
+------------------------------------------------------------
+
+Date: 5 July 2025
+Project: Korzo interiors v17
+
+    Task: Internal - 1 hrs
+    Attended a team meeting to review project progress and discuss next steps.
+
+    Task: Migration - 3 hrs
+    Created scripts to migrate specific field data from the old database to the production database.
+    Initially, the script used the ConfigParser library and configuration reference paths to connect both databases directly for data migration.
+    Converted all migration scripts to use XML-RPC instead, since direct database connection via the config library was not feasible on the server environment.
+    This change ensures that the migration process works smoothly on the server and improves script compatibility and flexibility.
+
+================================================================
+
+Date: 5 July 2025
+Project: Korzo interiors v17
+
+Task: Migration 5 to 2:30 [9:30 hrs]
+    
+    02:00
+    Initiated the migration process on the server and completed full data migration for companies, users, and partners.
+    01:45
+    Completed full migration of employee records, products, and their related models.
+    02:00
+    Migrated expense records.
+    03:45
+    Completed the migration of accounting data. 
+
+================================================================
+
+Date: 6 July 2025
+Project: Korzo interiors v17
+
+Task: Migration 9 to 4 [7 hrs]
+    
+    1:00
+    Fixed issues with incorrect payment statuses in migrated accounting records.
+    Resolved mismatched counts in journal items to align with original database figures.
+    3:30
+    Corrected debit and credit values for journal entries to ensure accurate accounting balances.
+    Fixed discrepancies in the residual amounts of journal items for proper reconciliation.
+    Completed all critical fixes related to data mismatches in accounting and journal entries.
+    2:30
+    Faced one issue where PDC payment records were missing from the upgraded database, causing count mismatches in journal items. Investigated thoroughly but could not resolve it due to the missing data. The issue was resolved by Karan Bhai.
+
+------------------------------------------------------------
+📅 Date: 07/07/2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+
+    Task: Internal 0:40 hrs
+    Attended a team meeting to review weekly and monthly work progress.
+
+    Task: Delivery and Receipt App - 0:55 hrs
+    Added background color in the kanban view for receipts.
+    Modified border styles and status button colors in receipt views.
+
+    Task: Delivery and Receipt App - 2:30 hrs
+    Added background color in the kanban view for deliveries.
+    Modified border styles and status button colors in delivery views.
+    Worked on adding priority options in delivery orders and their custom views.
+
+🔧 Development: Generate PO from sale order 3:00 hrs -> Separate PO for track and fabrics
+    Fixed the issue where backorders were not created for receipts with remaining product quantities.
+
+🔧 Development: Manufacturing management 0:30 hrs
+    Modified border styles and status button colors in fabric cutting views.
+
+🔍 R&D: Delivery and Receipt App - 0:25 hrs
+    Researched how border color work in the Tesro fabric cutting view and evaluated how to apply a similar feature in Korzo.
+
+🚫 Blockers/Risks:
+    system issue
+
+------------------------------------------------------------
+
+📅 Date: 08/07/2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+
+    Task: Delivery and Receipt App
+    2:30
+    Completed adding priority options in delivery orders and their custom views.
+    Passed the sales order reference from the purchase order to its receipt moves to enable grouping by sales order.
+    Added "Group By Sales Order" functionality in custom views for receipt.
+    1:30
+    Passed the sales order reference from the delivery order to the its moves. The reference is passed successfully, but faced an issue where the XML search view is not updating and the "Group By Sales Order" function is not working properly.
+    Added "Group By Sales Order" functionality in custom views for delivery.
+
+🔧 Development: Fix issue 0:30 hrs
+    Researched the issue where fabric and track costs are set to zero when saving the sales order.
+
+🔧 Development: Daily Report 3:30 hrs
+    Used Tesro project as a reference to create a new module structure and added the required wizard and root menu.
+    Modified the daily report model functionality based on sales order line product types.
+    Added the daily report view and implemented logic to reflect changes based on different product types in the sales order lines.
+    Continued working on enhancing the daily report module.
+
+------------------------------------------------------------
+
+📅 Date: 09/07/2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+🔍 R&D: Manufacturing management 4:00
+    Faced an issue where manufacturing orders were not being created when two different product types were used in a single sales order.
+    Debugged the flow by checking the kit preparation, manufacturing order preparation, and other related methods to identify which part of the logic was causing the issue.
+
+🔧 Development: Daily report 2:40
+    Modified the daily report to include invoices and credit notes based on specific product types.
+    Performed testing operations such as creating invoices, credit notes, payments, PDC payments, expenses, and petty cash for the daily report.
+
+🔧 Development: Users Assess Rights 0:45
+    Added functionality to hide specific menus for particular users based on their access rights, and tested this feature by logging in as another users.
+
+🔧 Development: Products and sale customization 0:35
+    Added fields in sales orders to employees for fixing and cutting tasks.
+    Integrated the cutting employee into the fabric cutting view.
+
+-------------------------------------------------------------
+
+📅 Date: 10/07/2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+
+➕ Bug: Manufacturing management 03:15
+    Debugged the manufacturing flow by checking the stock rule, procurement group, and stock move procurement methods to identify the logic causing the issue.
+
+🔍 R&D: Generate PO from sale order -> Separate PO for track and fabrics
+    2:10
+    Created separate fields for blackout and sheer to manage additional products more effectively.
+    Overrode the create and write methods to handle additional product logic.
+    Passed necessary details for each additional product such as width, open type, etc., during processing.
+    Identified an issue where the maximum height value was not being set correctly in certain cases and attempted to fix the problem.
+
+Task: Approval for manually created purchase 01:30
+    Passed context in the purchase order action to identify whether the order was created manually, through procurement/MTO, or via a custom button in the sales order.
+    Overrode the create and confirm button methods in the purchase order to manage approval functionality using the context. 
+    Tried to manage the existing custom approval method, but it did not work properly.
+    Used the default approval method to fix the issue where receipts were not being generated after approval.
+
+🔧 Development: Delivery and Receipt App 0:30 
+    Integrated the fixing employee, delivery date into the delivery view.
+    Integrated the delivery date into the fabric cutting view.
+
+🔧 Development: Restriction on create and delete products 0:35
+    Created a security group to manage user permissions for product manipulation.
+    Implemented access restrictions on product and product template models by overriding the create, edit and delete methods.
+    Users without the required group will now receive a validation error when attempting to create, edit or delete products.
+    Defined the group "Allowed Create Products" in XML for assignment via user settings.
+
+------------------------------------------------------------
+
+📅 Date: 11/07/2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+
+➕ Bug: Manufacturing management
+    02:30
+    Researched why stock moves were being deleted when the procurement group was triggered during order processing.
+    Analyzed the interaction between procurement rules and stock move creation logic.
+    02:15
+    Researched possible reasons such as route mismatches, incorrect rule settings, or the procurement process being triggered incorrectly.
+    Tried different approaches to identify and fix the issue, but it still needs further analysis.
+
+ 🔧 Development: Delivery and Receipt App 01:30
+    Modified the computed method to manage the receipt status and skip the "Assign" stage.
+    Removed the "Assign" button from the receipt view.
+    Faced an issue where removing the Assign button affected the delivery status handling.
+    Resolved the issue by using the picking code to manage the receipt and delivery status correctly.
+
+🔧 Development: Blackout and sheer changes 01:45
+    Added new fields to handle a second track for blackout and sheer.
+    Managed vendor details and total track cost for the second track setup.
+    Fixed an issue related to incorrect total track cost with the help of the manager.
+    Continued working on implementing logic to manage both track details for blackout and sheer products.
+
+---------------------------------------------------------------------------
+
+📅 Date: 14/07/2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+
+🔧 Development: Delivery and Receipt App
+    01:45
+    Removed the existing height field and added three separate fields: left, right, and center height in both receipt and delivery views.
+    Passed three height values and width from the sales order to the delivery view.
+    Attempted to pass all three height values from the sales order to receipt views, Found that these values are not reliably passed in manual purchase receipts—currently, all three height values are only successfully passed to the custom delivery view.
+
+➕ Bug: Manufacturing management 01:00
+    Attempted to resolve an issue where manufacturing orders were not being created when two different product types were used in a single sales order, Unable to fix the issue; it has been resolved by the manager.
+
+🔍 R&D: Routes configuration and automatic PO and MO workflow testing
+    02:15
+    Checked the count of products types like curtains, rollers, fabrics, tracks, motors were order processed.
+    Verified that Purchase Orders and Receipts were created correctly under multiple test scenarios.
+    03:00
+    Verified that Manufacturing Orders and Delivery Orders were generated properly, with correct values.
+    Continued testing end-to-end transactions to ensure all records were linked properly and reflected expected values in each stage.
+
+--------------------------------------------------------------------------
+
+📅 Date: 15/07/2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+
+🔍 R&D: Routes configuration and automatic PO and MO workflow testing
+    02:00
+    Checked the product type critical data like quantity, height, width and product description from the sales order.
+    Ensured that all generated Purchase Orders, Receipts, MOs, and Delivery Orders reflected the correct values.
+    02:00
+    Tested whether track-related additional products were added and processed correctly in the Purchase Order, Receipt, and Delivery flows.
+    Performed full workflow testing to validate system functionality and ensure all processes were working as expected.
+    00:30
+    Discussed with Ankur Bhai how to configure routes to ensure that a purchase order is always created—regardless of whether stock is available in the location or not and performed the required configuration.
+
+🔧 Development: Sale line kanban
+    02:20
+    Replaced the product name with the product description in the sales order line Kanban view.
+    Researched and resolved the issue where a specific American-type curtain product was not appearing in the sales order line, based on its product and curtain type.
+    Verified and debugged that the code properly manages product variants and templates.
+
+🔧 Development: Delivery and Receipt App 00:40
+    Added the roller fabric name and note to both receipt and delivery views for better clarity.
+
+🔧 Project:- Internal 00:30
+    Updated last week timesheet.
+
+=====================================================================
+📅 Date: 16 July 2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Plan:
+
+🔧 Development: Delivery and Receipt App 
+    - Display the purchase order number into the fabric cutting view.
+    - Convert the fabric cutting Kanban view into an editable format.
+    – Estimated: 01:20
+
+🔧 Project: Setup System
+    – Estimated: 02:00
+
+======================================================================
+📅 Date: 16 July 2025
+🔧 Project: Korzo Interiors v17
+ 
+🗓️ Today’s Work:
+
+🔍 R&D: Delivery and Receipt App
+    - Improved the code to correctly display the roller fabric name and note in both receipt and delivery views.
+
+ 🔧 Project: Internal
+    - Added timesheet entries for migration work completed over the weekend (Saturday and Sunday).
+    - Organized and separated previous timesheet entries based on newly created task categories.
+
+🔧 Development: Manufacturing management
+    - Debugged the manufacturing creation process, focusing on procurement methods.
+    - Identified how to fetch the related Purchase Order reference for a specific Manufacturing Order.
+    - Initially planned to override the procurement method, but after guidance from the manager, adjusted existing methods instead to achieve the desired result without overriding.
+
+🔧 Development: Delivery and Receipt App
+    - Created a new field in stock moves to manage custom order positioning in the delivery view.
+    - Added a compute method for this new field and updated the delivery view layout accordingly.
+
+🔧 Development: Separate PO for track and fabrics
+    - Added fields to handle a second motor for blackout and sheer products.
+    - Managed related vendor and pricing logic for the second motor.
+    - Modified methods for calculating total cost and unit price accordingly.
+    - Updated the sale order line view to dynamically show/hide fields based on curtain type and the main product selected.
+    - Performed testing to ensure the entire flow works as expected.
+ 
+📌 Notes:
+    - Convert the fabric cutting Kanban view into an editable format and System setup task was not started as additional time was required to display the Purchase Order number in the fabric cutting view. However, all other new changes were completed successfully.
 
 
-- order confirm kaira pchi add a line no option b n aavo joi e
-- track product set after change to roller and confirm that time also create po of track, but roller have not track product.
-- test proper calcualtion
-- fold kanban
-- need ? to have add a hieght and widht in manufacure order view, not fabruc cutting view
 
-New requirements for korzo:
-        When a delivery is cancelled, the linked Purchase Order (PO) should also be cancelled automatically.
-        Need separate purchase orders for track and fabric products.
-    For Track Purchase:
-        Description should include: Product Name, Height, Width, Fixing Type, Open Type
-        Unit Price = Width × Quantity (same as Tesro logic)
-    For Fabric Cutting:
-        Need a print option.
+- roller fabric add name in delivery and recipt
+
+- PO number will be shown in the Fabric Cutting screen.
+- For Korzo, Add option to choose 2 motors for blackout and sheer curtain when motorized curtain selected.
+- Completed moves should go down in delivery app
 
 
-D4 = fabric_width
-C4 = max_height
-B4 = curtain_width
+- editable kanban view.
+- fabric count issue when use blackout and sheet that time total fabric count consider 2 +
+- email of extra work.
+- system setup
 
-    # curtain_types = fields.Selection(
-    #     [
-    #         ("american", "American"),
-    #         ("wave", "Wave"),
-    #         ("eyelet", "Eyelet"),
-    #         ("roman", "Roman"),
-    #         ("motorised_american", "Motorised American"),
-    #         ("motorised_wave", "Motorised Wave"),
-    #     ],
-    #     string="Curtain type",
-    #     store=True,
-    # )
 
-1) Hold XX
-roller fabric count = roller heigh * roller width
-roller fabric cost = roller fabric count * roller fabric stander price
+=====================================================================
+📅 Date: [DD Month, YYYY]
+🔧 Project: [Project Name]
+ 
+🗓️ Today’s Plan:
+➕ [Bug] [Task Title] – [Brief description] – Estimated: [X hrs]
+🔧 [Development] [Task Title] – [Details] – Estimated: [X hrs]
+🔍 [R&D] [Task Title] – [Details] – Estimated: [X hrs]
 
-Cost = Width × Height,
-Sales Price = Cost × 3.5
-==================================================================
-Pending Work:
-- revise git command of pull etc.
-- incoming and outgoing mail server preper doc
-- learn github copilot
-- learn procurements
-- return sale order flow doc
+======================================================================
+📅 Date: [DD Month, YYYY]
+🔧 Project: [Project Name]
+ 
+🗓️ Today’s Work:
+➕ [Bug] [Task Title] – [What you worked on]
+🔍 [R&D] [Task Title] – [Progress, fixes, or testing done]
+🔧 [Development] [Task Title] – [Details of the work completed]
+ 
+🚫 Blockers/Risks (if any):
+      [Mention if any]
+ 
+📌 Notes (Optional):
+      [Anything to note]
+
+======================================================================
+
+
+first time get all product qty and create invcoice 
+then second time run backourder that time also create invoice and that time show all product and thats product qty is 0 thats why error show 
+
+
 ==================================================================
 
 -------------------------------------------------------------------
@@ -2531,7 +2890,7 @@ with store true [deta get on database]
 ==============================================
 chiragrajkotiya@gmail.com
 hr1into2digital@gmail.com
-
+chetan.reliution@gmail.com
 rajp.1into2@gmail.com
 dipakg.1into2@gmail.com
 bhargav.1into2@gmail.com
@@ -2579,7 +2938,7 @@ From openerp/osv/fields.py
 # (6, ?, ids) set a list of links
 
 =================
-
+    
 
 
 git status
@@ -2591,4 +2950,40 @@ git commit -m ""
 gh repo create
 git remote add REMOTE_NAME <URL>
 git remote -v
-git push -u REMPTE_NAME BRANCH_NAME
+git push -u REMOTE_NAME BRANCH_NAME
+pre-commit run --all-files
+
+git clone -b <branch_name> <repository_url>
+git pull origin <branch_name>
+git push origin <branch_name>
+
+
+
+
+
+update ir_cron set active=False where active=True;
+update res_partner set email='admin@gmail.com';
+update ir_mail_server set active=False;
+update fetchmail_server set active=False;
+update res_users set login='admin', password='admin' where id =2;
+
+
+http://150.129.151.225:8080/
+Username: bhargav
+Password: Bhargav@1234
+
+
+
+
+
+Amount_company_currency_signed not matched in payments
+Check PDC payment journal entries 
+Check this expense report—Office Expense (no. 1506)—id 173
+Miscellaneous entry— 
+    amount_total_signed is different than debit and credit.
+    Move lines missing of PDC payments in bank and cash entries
+
+
+
+
+
